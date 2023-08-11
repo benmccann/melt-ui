@@ -2,6 +2,7 @@
 	import { fly } from 'svelte/transition';
 	import { ArrowRight, Check, Copy } from 'lucide-svelte';
 	import { Button } from '$docs/components/index.js';
+	import Logo from '$docs/components/logo.svelte';
 
 	let copied = false;
 	let copytimeout: ReturnType<typeof setTimeout>;
@@ -21,7 +22,7 @@
 
 <div class="relative grid grow place-items-center">
 	<div class="flex flex-col items-center">
-		<img class="logo" src="/logo.svg" alt="Melt UI" />
+		<Logo withText textColor="white" />
 		<button
 			on:click={copyInstallCommand}
 			class="text-md group mt-8 flex items-center justify-between gap-4 break-keep rounded
