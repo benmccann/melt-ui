@@ -1,5 +1,23 @@
 # @melt-ui/svelte
 
+## 0.35.0
+
+### Minor Changes
+
+- a5270d8d: Combobox: refactor API to be more declarative
+
+### Patch Changes
+
+- 9fe1832f: Select: improve valueLabel behaviour
+
+## 0.34.6
+
+### Patch Changes
+
+- 13d4cd85: [Context Menu] Fix bug preventing forms from being submitted within the menus
+- 0be3520a: [Select] Prevent trigger refocus when using mouse
+- 19942427: [Menubar] Fix lag when switching between menus
+
 ## 0.34.5
 
 ### Patch Changes
